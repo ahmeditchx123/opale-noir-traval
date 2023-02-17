@@ -2,8 +2,7 @@ const router = require('express').Router();
 const bcrypt = require('bcrypt');
 
 router.get('/', async (req, res) => {
-    console.log('hello there');
-    res.status(200).json({message: 'hello there'});
+    res.status(200).json({message: 'hello from Opale Noir Travel'});
 });
 
 
